@@ -1,0 +1,177 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(241, 230, 230);
+    font-family: 'Times New Roman';
+
+}
+
+h1{
+    margin: 64px 48px;
+    font-size: 70px;
+    font-weight: bold;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    line-height: 1.5;
+    letter-spacing: 0.3rem;
+    text-transform: capitalize;
+    margin-bottom: 0.75rem;
+    font-family: 'Times New Roman';
+
+}
+
+article{
+    width: 463px;
+    height: 926px;
+}
+
+.Title{
+    margin: 4rem 0px 6rem 0;
+    text-align: center;
+}
+.container{
+    width: max-content;
+    display: flex;
+    margin: 4rem  auto;
+    gap: 4rem;
+} 
+/* /// Self made */
+
+
+
+/* 
+.container {
+  width: 90vw;
+  margin: 4rem auto;
+  max-width: 992px;
+  display: grid;
+  gap: 4rem;
+} */
+
+/* .white-card, .black-card{
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 64px 56px;;
+} 
+//// Self made
+*/
+
+
+.white-card{
+    padding: 4rem 3.5rem;
+    background: whitesmoke;
+    border-radius: 1.75rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    /* border: 1px solid black; */
+    
+}
+
+.white-card header{
+    padding-left: 4rem;
+    margin-bottom: 5rem;
+}
+
+.card-title{
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.card-title p{
+    font-size: 20px;
+    color: grey;
+    text-transform: capitalize;  /* It can be uppercase, lowercase but "capitalize" means first letter is capital and others are small */
+}
+
+
+.card-price{
+    font-size: 52px;
+    line-height: 65px;
+    font-weight: 700;
+    margin-top: 8rem;
+}
+
+.Services{
+    padding-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+/* .service{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+} */
+
+.service{    /* Self made */
+    display: flex;
+    column-gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.5px;
+} 
+
+
+.service p{
+    color: rgb(65, 56, 56);
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.black-card .service p{
+    color: white
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    /* background: black;
+    border-radius: 50%;
+    color: white; */
+}
+
+button{
+    background: black;
+    color: white;
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    border-radius: 1.75rem;
+    border-color: transparent;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+}
+
+.white-card button:hover{
+    background: rgb(240, 40, 26);
+    color: rgb(248, 244, 242);
+}
+
+.black-card{
+    background: black;
+    color: white;
+}
+
+.black-card button {
+    background: white;
+    color: black;
+}
+
+.black-card button:hover{
+    /* background: rgb(29, 11, 11);
+    color: rgb(54, 14, 201); */
+    background: rgb(240, 40, 26);
+    color: rgb(248, 244, 242);
+}
+
+
+
